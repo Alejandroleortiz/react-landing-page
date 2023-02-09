@@ -1,10 +1,7 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
-const Home = () => {
+const Nav = () => {
 	return (
     <nav className="navbar navbar-expand-lg bg-body-secondary" data-bs-theme="dark">
     <div className="container-fluid mx-3">
@@ -35,4 +32,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Nav;
