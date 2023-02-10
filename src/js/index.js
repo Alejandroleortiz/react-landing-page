@@ -6,7 +6,8 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Nav from "./component/nav.jsx";
+import App from "./app.jsx";
 
 //render your react application
-ReactDOM.render(<Nav />, document.querySelector("#app"));
+ReactDOM.render(<App/>, document.querySelector("#app"));
+
