@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from "./component/nav.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
 import Card from './component/card.jsx';
+import Footer from './component/footer.jsx';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       
       </div>
       </div>
+
+      <Footer/>
     </>
   );
 }
