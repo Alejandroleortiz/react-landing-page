@@ -4,7 +4,7 @@ import React from "react";
 const Nav = () => {
 	return (
     <nav className="navbar navbar-expand-lg bg-body-secondary" data-bs-theme="dark">
-    <div className="container-fluid mx-3">
+    <div className="container">
       <a className="navbar-brand" href="#">Start Bootstrap</a>
       <div className="justify-content-end">
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">

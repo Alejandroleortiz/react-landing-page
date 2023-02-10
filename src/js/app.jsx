@@ -5,15 +5,13 @@ import Card from './component/card.jsx';
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
-      <div className='container-fluid'>
+      <div className='container'>
       <Jumbotron />
-      <div className='row d-flex justify-content-around'>
-      <Card className="col-3"/> <Card className="col-3"/> <Card className="col-3"/> <Card className="col-3"/>
+      <Card/> <Card/> <Card/> <Card/>
       </div>
-      </div>
-    </div>
+    </>
   );
 }
 
