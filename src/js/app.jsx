@@ -9,7 +9,25 @@ function App() {
       <Nav />
       <div className='container'>
       <Jumbotron />
-      <Card/> <Card/> <Card/> <Card/>
+      <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-3 '>
+      
+      <div className="col">
+      <Card/> 
+      </div>
+
+      <div className="col">
+      <Card/> 
+      </div>
+
+      <div className="col">
+      <Card/> 
+      </div>
+
+      <div className="col">
+      <Card/> 
+      </div>
+      
+      </div>
       </div>
     </>
   );
