@@ -1,10 +1,14 @@
 import React from "react";
 
 //create your second component
-const Card = () => {
+const Card = (props) => {
 	return (
-
 <div className="card px-0 mb-3 object-fit-cover">
+{props.children}
+</div>
+
+
+/* <div className="card px-0 mb-3 object-fit-cover">
   <img src="https://dummyimage.com/500x325/cccccc/f2f2f2.png" className="card-img-top" alt="..." />
   <div className="card-body ">
     <h5 className="card-title text-center">Card title</h5>
@@ -18,7 +22,7 @@ const Card = () => {
       Find Out More
     </a></li>
   </ul>
-</div>
+</div> */
 
 	);
 };
